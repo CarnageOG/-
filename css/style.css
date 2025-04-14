@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+  }
+  
+  .persona-card {
+    width: 650px;
+    height: 700px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .left-panel {
+    width: 40%;
+    background-color: #fafafa;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: calc(100% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .info-table {
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .info-table td {
+    padding: 6px 12px;
+    vertical-align: top;
+  }
+  
+  .label {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+  
+  .value {
+    color: #1a1a1a;
+  }
+  
+  .right-panel {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  
+  .card-section {
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  
+  .card-section h3 {
+    margin: 0 0 5px;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .card-section ul {
+    padding-left: 18px;
+    margin: 0;
+    color: black;
+  }
+  
+  .card-section ul li {
+    margin-bottom: 6px;
+  }
